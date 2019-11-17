@@ -34,10 +34,10 @@ public class RegisterActivity extends AppCompatActivity {
     public RegisterActivity() {
     }
 
-    public RegisterActivity(String id, String note, String timestamp) {
-        this.user = id;
-        this.name = note;
-        this.pass = timestamp;
+    public RegisterActivity(String user, String name, String pass) {
+        this.user = user;
+        this.name = name;
+        this.pass = pass;
     }
 
     public String getUser() {

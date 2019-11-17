@@ -18,7 +18,7 @@ import java.util.List;
 public class LoginActivity extends AppCompatActivity {
 
     private DB db;
-    private List<RegisterActivity> List = new ArrayList<>();
+    private List<store> List = new ArrayList<>();
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
